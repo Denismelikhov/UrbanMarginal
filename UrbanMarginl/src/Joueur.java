@@ -38,6 +38,9 @@ public class Joueur extends Objet {
 	 */
 	private Boule boule ;
 	
+	private int vie ;
+	
+	private int orientation ;
 	/**
 	 * Constructeur
 	 */
@@ -92,6 +95,10 @@ public class Joueur extends Objet {
 	 * Perte de points de vie après avoir été touché 
 	 */
 	public void perteVie() {
+	}
+	
+	private Boolean toucherMur() {
+		return null;
 	}
 	
 	/**
